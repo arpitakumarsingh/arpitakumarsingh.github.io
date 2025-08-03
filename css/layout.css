@@ -57,7 +57,7 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   s text-align: center;
+   text-align: center;
 }
 
 header .banner-text {
@@ -465,6 +465,10 @@ ul#nav li.current a {
 }
 
 /* Keyframes for each skill */
+@-moz-keyframes golang {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 @-moz-keyframes golang {
    0% {
       width: 0;
